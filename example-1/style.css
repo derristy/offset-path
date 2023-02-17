@@ -15,7 +15,7 @@
 
 .offset {
     offset-path: path("M850.5 490.5H154V108H850.5V490.5Z");
-    /* animation: offset 5s infinite; */
+    animation: offset 15s infinite;
     offset-distance: 0%;
     offset-rotate: -90deg;
 }
