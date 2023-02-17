@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.offset {
+    offset-path: path("M850.5 490.5H154V108H850.5V490.5Z");
+    /* animation: offset 5s infinite; */
+    offset-distance: 0%;
+    offset-rotate: -90deg;
+}
+
+@keyframes offset {
+    0% {
+        offset-distance: 0%;
+        offset-rotate: -90deg;
+    }
+
+    24% {
+        offset-distance: 32%;
+        offset-rotate: -90deg;
+    }
+
+    25% {
+        offset-distance: 33%;
+        offset-rotate: 1deg;
+    }
+
+    49% {
+        offset-distance: 49%;
+        offset-rotate: 1deg;
+    }
+
+    50% {
+        offset-distance: 50%;
+        offset-rotate: 90deg;
+    }
+
+    74% {
+        offset-distance: 81%;
+        offset-rotate: 90deg;
+    }
+
+    75% {
+        offset-distance: 82%;
+        offset-rotate: 180deg;
+    }
+
+    100% {
+        offset-distance: 100%;
+        offset-rotate: 180deg;
+    }
+}
